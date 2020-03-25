@@ -1,0 +1,21 @@
+<script>
+
+var browser_list = ["Chrome","Firefox","Safari","Opera","MSIE","Trident","Edge"]; //last 3 names are for IE
+var browser, user_agent = navigator.userAgent; //returns the entire string for userAgent under the variable user_agent
+
+for(var i=0; i < browser_list.length; i++){  //iterate over the list until all of them are searched
+    if( user_agent.indexOf(browser_list[i]) > -1 ){ //only looking for part in the string where 'this' name is defined
+        browser = browser_list[i];
+        break;
+    }
+}
+
+if(browser == "MSIE" || browser == "Trident" || browser == "Edge")
+{
+    browser = "Internet Explorer";
+}
+
+alert("You are using " + browser + " browser"); //we will replace this line with the following line
+//console.log("You are using " + browser + " browser");
+
+</script>
