@@ -1,0 +1,1 @@
+First of all, insert a link to an image from the internet (not local machine)
