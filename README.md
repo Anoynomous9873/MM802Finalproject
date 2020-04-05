@@ -1,3 +1,13 @@
+Trial.html is the homepage file.
+
+Video1-9 are the html files for respective videos.
+
+Home.html file contains the authors information.
+
+newjs12 contains the mainfest uri's to all the different videos.
+
+To run, first replace the links inside newjs12 with your manifest files and run trial.html!!
+
 # ![Shaka Player](docs/shaka-player-logo.png)
 
 Shaka Player is an open-source JavaScript library for adaptive media.  It plays
